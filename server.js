@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 
-//const PORT = 5050;
-const PORT = process.env.PORT || 5000;
+const PORT = 443;
+//const PORT = process.env.PORT || 5000;
 const wsServer = new WebSocket.Server({
   port: PORT,
 });
